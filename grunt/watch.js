@@ -11,7 +11,12 @@ module.exports = {
 		"interrupt": true
 	},
 	"js": {
-		"files": ["src/scripts/**/*","src/templates/**/*.hbs"],
+		"files": [
+			"src/scripts/**/*",
+			"src/templates/**/*.hbs",
+			"node_modules/interactive-*/src/scripts/**/*",
+			"node_modules/interactive-*/src/templates/**/*"
+		],
 		"tasks": [
 			"jshint:js",
 			"browserify:dev"
@@ -19,7 +24,10 @@ module.exports = {
 		"interrupt": true
 	},
 	"css": {
-		"files": "src/styles/**/*.scss",
+		"files": [
+			"src/styles/**/*.scss",
+			"node_modules/interactive-*/src/styles/**/*"
+		],
 		"tasks": "sass:dev",
 		"interrupt": true
 	},
