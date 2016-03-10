@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="305px" height="42px" viewBox="0 0 305 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.5.2 (25235) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 11</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Large-Screen-Intro" sketch:type="MSArtboardGroup" transform="translate(-632.000000, -709.000000)">
+            <g id="Intro" sketch:type="MSLayerGroup" transform="translate(-10.000000, 124.000000)">
+                <g id="Group-7-Copy-3" transform="translate(0.000000, 247.000000)">
+                    <g id="For-and-Against" transform="translate(501.000000, 338.000000)">
+                        <g id="Against">
+                            <g id="Group-11" transform="translate(141.000000, 0.000000)">
+                                <path d="M1.7490213,24.7989766 C6.58560312,29.9377947 14.6155195,38.4694977 14.6155195,38.4694977 C16.4506834,40.4193403 20.0436094,42 22.6518183,42 L300.286559,42 C302.889721,42 305,39.7567461 305,36.9963439 L305,5.00365614 C305,2.24021316 302.894768,0 300.286559,0 L22.6518183,0 C20.0486569,0 16.4534167,1.57775561 14.6098024,3.53657671 L1.93822162,17 L1.93547732,17.0488979 C0.757802847,17.9636443 0,19.3933237 0,21 C0,22.5202003 0.678423782,23.8819439 1.7490213,24.7989766 Z" id="Rectangle-1-Copy-4" fill="#C44531" sketch:type="MSShapeGroup"></path>
+                                <g id="Group-8" transform="translate(25.000000, 7.000000)">
+                                    <text id="THE-ARGUMENT-AGAINST" sketch:type="MSTextLayer" font-family="Proxima Nova" font-size="20" font-weight="bold" line-spacing="65" letter-spacing="-0.5" fill="#FFFFFF">
+                                        <tspan x="29" y="20">THE ARGUMENT AGAINS</tspan>
+                                        <tspan x="251.3" y="20">T</tspan>
+                                    </text>
+                                    <g id="Group-6" transform="translate(6.669437, 13.610034) rotate(-7.000000) translate(-6.669437, -13.610034) translate(1.169437, 8.110034)" stroke="#FFFFFF" stroke-width="3" sketch:type="MSShapeGroup" stroke-linecap="round">
+                                        <path d="M1.22568622e-12,2.66453526e-13 C1.22568622e-12,2.66453526e-13 8.84184319,5.85318761 10.7142857,10.7142857" id="Path-27"></path>
+                                        <path d="M1.22568622e-12,2.66453526e-13 C1.22568622e-12,2.66453526e-13 8.84184319,5.85318761 10.7142857,10.7142857" id="Path-28" transform="translate(5.357143, 5.357143) scale(-1, 1) translate(-5.357143, -5.357143) "></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

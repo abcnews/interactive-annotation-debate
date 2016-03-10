@@ -5,7 +5,17 @@
  * @author Simon Elvery <elvery.simon@abc.net.au>
  */
 
-#example {
-	font-size: 2em;
-	color: #0058cc;
+@import './variables';
+
+@import '../../node_modules/narrative-core/src/styles/main';
+@import '../../node_modules/narrative-core/src/styles/header';
+@import '../../node_modules/narrative-core/src/styles/nav';
+@import '../../node_modules/interactive-context-cards/src/styles/index';
+
+@import './overrides';
+
+@import './default';
+
+.platform-mobile {
+	@import './platform-mobile';
 }

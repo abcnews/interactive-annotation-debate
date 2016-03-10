@@ -1,7 +1,4 @@
 module.exports = {
-	options: {
-		transform: ['hbsfy','brfs',['babelify',{presets:['es2015']}]]
-	},
 	dev: {
 		options: {
 			debug: true

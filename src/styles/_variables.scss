@@ -1,0 +1,15 @@
+$primary-color: #0D5490;
+$heading-font-family: "ProximaNova", "Interval Sans", sans-serif;
+
+/* Image Header */
+$header-background-color: rgb(249,249,249);
+$header-text-color: #222;
+$header-title-color: #222;
+$header-subtitle-color: #222;
+
+/* panels */
+$panel-text-color: #000;
+$panel-background-color: rgb(238,238,238);
+
+/* Always import defaults */
+@import '../../node_modules/narrative-core/src/styles/variables';

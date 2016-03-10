@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="125px" height="36px" viewBox="0 0 125 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>For</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Large-Screen-Article" transform="translate(-1304.000000, -1494.000000)">
+            <g id="Article-page" transform="translate(-4.000000, 122.000000)">
+                <g id="Switch" transform="translate(0.000000, 1340.000000)">
+                    <g id="For-and-Against" transform="translate(1164.000000, 7.000000)">
+                        <g id="For" transform="translate(144.000000, 25.000000)">
+                            <path d="M1.49916112,21.2562657 C5.64480268,25.6609669 12.5275881,32.9738551 12.5275881,32.9738551 C14.1005857,34.6451488 17.1802366,36 19.4158442,36 L120.245622,36 C122.476903,36 124.285714,34.077211 124.285714,31.7111519 L124.285714,4.28884812 C124.285714,1.92018271 122.48123,0 120.245622,0 L19.4158442,0 C17.184563,0 14.1029286,1.35236195 12.5226878,3.03135147 L1.66133282,14.5714286 L1.65898056,14.6133411 C0.649545297,15.3974094 0,16.6228489 0,18 C0,19.3030288 0.581506099,20.4702376 1.49916112,21.2562657 Z" id="Rectangle-1-Copy-4" fill="#008255" transform="translate(62.142857, 18.000000) scale(-1, 1) translate(-62.142857, -18.000000) "></path>
+                            <g id="Group-9" transform="translate(35.000000, 6.000000)">
+                                <text id="FOR" font-family="ProximaNova-Bold, Proxima Nova" font-size="18" font-weight="bold" line-spacing="65" fill="#FFFFFF">
+                                    <tspan x="0" y="18">FOR</tspan>
+                                </text>
+                                <path d="M59,7 C62.1952663,9.45454545 64.1341125,12.6590998 65.3905325,16 C67.7869822,13.5454545 69.3846154,13.5454545 69.3846154,13.5454545" id="Path-29" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" transform="translate(64.192308, 11.500000) scale(-1, 1) translate(-64.192308, -11.500000) "></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

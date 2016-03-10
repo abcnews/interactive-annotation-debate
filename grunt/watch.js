@@ -15,7 +15,11 @@ module.exports = {
 			"src/scripts/**/*",
 			"src/templates/**/*.hbs",
 			"node_modules/interactive-*/src/scripts/**/*",
-			"node_modules/interactive-*/src/templates/**/*"
+			"node_modules/interactive-*/src/templates/**/*",
+			"node_modules/util-*/src/scripts/**/*",
+			"node_modules/util-*/src/templates/**/*",
+			"node_modules/narrative-*/src/scripts/**/*",
+			"node_modules/narrative-*/src/templates/**/*"
 		],
 		"tasks": [
 			"jshint:js",
@@ -26,7 +30,9 @@ module.exports = {
 	"css": {
 		"files": [
 			"src/styles/**/*.scss",
-			"node_modules/interactive-*/src/styles/**/*"
+			"node_modules/interactive-*/src/styles/**/*",
+			"node_modules/util-*/src/styles/**/*",
+			"node_modules/narrative-*/src/styles/**/*"
 		],
 		"tasks": "sass:dev",
 		"interrupt": true

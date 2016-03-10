@@ -1,0 +1,183 @@
+.Narrative-headerTitle {
+	span:first-child {
+		display: block;
+		text-transform: uppercase;
+		font-weight: bold;
+		font-size: 22px;
+		letter-spacing: -0.5px;
+	}
+	svg {
+		display: block;
+		margin-left: -20px;
+	}
+}
+
+#panelproposition {
+	> h2 {
+		font-weight: bold;
+		font-style: italic;
+		letter-spacing: -1px;
+	}
+}
+
+.topic #panelproposition {
+
+	:first-child {
+		margin-top: 0;
+	 }
+
+	 > h2 {
+		font-size: 40px;
+		line-height: 49px;
+		max-width: 800px;
+		margin: 55px auto;
+	}
+
+	// Hide the stupid extra p tag
+	>p {display: none;}
+
+	> h3 {
+		 text-transform: uppercase;
+		 color: #888;
+		 font-weight: bold;
+		 font-size: 18px;
+		 text-align: center;
+		 margin-bottom: 15px;
+	}
+
+	> div {
+		display: flex;
+		justify-content: center;
+
+		svg {
+			max-width: 100%;
+		}
+
+		> div {
+			width: 40%;
+			margin: 0 20px;
+
+			&.against {
+				text-align: right;
+			}
+
+			h2 {
+				margin-top: 25px;
+				margin-bottom: 5px;
+				font-weight: bold;
+				font-size: 30px;
+				letter-spacing: -1px;
+				line-height: 40px;
+
+				a {
+					color: #555;
+				}
+			}
+
+			p {
+				font-size: 15px;
+				color: #222;
+				a {
+					font-weight: bold;
+				}
+			}
+		}
+	}
+}
+
+.for, .against {
+
+	#panelproposition {
+		position: fixed;
+		width: 940px;
+		bottom: 0;
+		padding: 0;
+		margin-bottom: 0;
+		z-index: 2;
+		display: flex;
+		flex-direction: row;
+		box-shadow: -1800px 0 #eeeeee, -900px 0 #eeeeee, 900px 0 #eeeeee, 1800px 0 #eeeeee;
+
+		> h2 {
+			font-size: 19px;
+			line-height: 24px;
+			margin: 15px;
+		}
+
+		> div {
+			flex-direction: row;
+			position: relative;
+			padding: 22px 0 10px;
+			white-space: nowrap;
+			margin-left: 20px;
+
+			&::before {
+				content: "The other side of the argument:";
+
+				position: absolute;
+				font-weight: bold;
+				color: #666;
+				left: 0;
+				right: 0;
+				top: 8px;
+				text-align: center;
+				font-size: 15px;
+			}
+
+			> a {
+				text-align: center;
+				vertical-align: middle;
+				width: 50%;
+				height: 38px;
+
+				svg {
+					margin-top: 11px;
+
+					text {
+						fill: #fff;
+					}
+
+					path:not(.background) {
+						stroke: #fff;
+					}
+				}
+
+				&.for {
+					svg .background {
+						fill: #008255;
+					}
+				}
+
+				&.against {
+					svg .background {
+						fill: #C44531;
+					}
+				}
+
+				&.active {
+
+					cursor: default;
+
+					svg {
+
+						.background {
+							fill: #fff;
+						}
+
+						text {
+							fill: #999;
+						}
+
+						path:not(.background) {
+							stroke: #999;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.ContextCards-context {
+	display: none;
+}
