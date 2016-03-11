@@ -1,4 +1,16 @@
+.Narrative-nav svg {
+	display: inline-block;
+    vertical-align: top;
+    height: 40px;
+	margin-left: 20px;
+	width: 170px;
+}
+
 .Narrative-headerTitle {
+	max-width: 700px;
+	font-weight: bold;
+	margin: 0 auto;
+	line-height: 1.15em;
 	span:first-child {
 		display: block;
 		text-transform: uppercase;
@@ -8,8 +20,12 @@
 	}
 	svg {
 		display: block;
-		margin-left: -20px;
+		margin: 0 auto;
 	}
+}
+
+.supports-inset-ContextCard .ContextCard {
+	z-index: 1;
 }
 
 .topic .Narrative-headerTitle svg {
@@ -36,6 +52,7 @@
 		line-height: 49px;
 		max-width: 800px;
 		margin: 55px auto;
+		color: #000;
 	}
 
 	// Hide the stupid extra p tag
@@ -47,7 +64,7 @@
 		 font-weight: bold;
 		 font-size: 18px;
 		 text-align: center;
-		 margin-bottom: 15px;
+		 margin-bottom: 20px;
 	}
 
 	> div {
@@ -67,7 +84,7 @@
 			}
 
 			h2 {
-				margin-top: 25px;
+				margin-top: 15px;
 				margin-bottom: 5px;
 				font-weight: bold;
 				font-size: 30px;

@@ -18,6 +18,10 @@
 	}
 }
 
+.Narrative-nav svg {
+	display: none;
+}
+
 .Narrative-headerContent {
 	margin: 10px auto;
 }
@@ -126,7 +130,7 @@
 				margin: 0;
 
 				svg {
-					border-radius: 5px;
+					display: inline;
 				}
 
 				>h2, >p {
@@ -140,19 +144,26 @@
 					margin-top: 30px;
 					padding-top: 10px;
 					border-top: dashed 2px #ccc;
-					svg {
+					>a {
 						background: rgb(196, 69, 49);
+						width: 100%;
 					}
 				}
 
 				&.for {
-					svg {
+					>a {
 						background: rgb(0, 130, 85);
+						width: 100%;
 					}
 				}
 
-				a:first-child {
+				>a:first-child {
 					order: 3;
+					display: block;
+					overflow: hidden;
+					height: 42px;
+					border-radius: 5px;
+					text-align: center;
 				}
 
 				h2 {
