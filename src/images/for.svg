@@ -14,7 +14,7 @@
                                 <path d="M1.7490213,24.7989766 C6.58560312,29.9377947 14.6155195,38.4694977 14.6155195,38.4694977 C16.4506834,40.4193403 20.0436094,42 22.6518183,42 L300.286559,42 C302.889721,42 305,39.7567461 305,36.9963439 L305,5.00365614 C305,2.24021316 302.894768,0 300.286559,0 L22.6518183,0 C20.0486569,0 16.4534167,1.57775561 14.6098024,3.53657671 L1.93822162,17 L1.93547732,17.0488979 C0.757802847,17.9636443 0,19.3933237 0,21 C0,22.5202003 0.678423782,23.8819439 1.7490213,24.7989766 Z" id="Rectangle-1-Copy-4" fill="#008255" sketch:type="MSShapeGroup" transform="translate(161.979996, 21.000000) scale(-1, 1) translate(-161.979996, -21.000000) "></path>
                                 <g id="Group-7" transform="translate(58.000000, 7.000000)">
                                     <g id="Group-9">
-                                        <text id="THE-ARGUMENT-FOR" sketch:type="MSTextLayer" font-family="Proxima Nova" font-size="20" font-weight="bold" line-spacing="65" letter-spacing="-0.5" fill="#FFFFFF">
+                                        <text id="THE-ARGUMENT-FOR" sketch:type="MSTextLayer" font-family="ProximaNova" font-size="20" font-weight="bold" line-spacing="65" letter-spacing="-0.5" fill="#FFFFFF">
                                             <tspan x="0" y="20">THE ARGUMENT FOR</tspan>
                                         </text>
                                         <path d="M208,6 C212.615385,9.54545455 215.41594,14.1742553 217.230769,19 C220.692308,15.4545455 223,15.4545455 223,15.4545455" id="Path-29" stroke="#F9F9F9" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup" transform="translate(215.500000, 12.500000) scale(-1, 1) translate(-215.500000, -12.500000) "></path>

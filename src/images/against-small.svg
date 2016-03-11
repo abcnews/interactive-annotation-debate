@@ -11,7 +11,7 @@
                     <g id="For-and-Against" transform="translate(1164.000000, 7.000000)">
                         <g id="Against" transform="translate(4.000000, 25.000000)">
                             <path d="M1.85630398,21.2562657 C6.00194554,25.6609669 12.884731,32.9738551 12.884731,32.9738551 C14.4577286,34.6451488 17.5373795,36 19.7729871,36 L120.602765,36 C122.834046,36 124.642857,34.077211 124.642857,31.7111519 L124.642857,4.28884812 C124.642857,1.92018271 122.838373,0 120.602765,0 L19.7729871,0 C17.5417059,0 14.4600714,1.35236195 12.8798306,3.03135147 L2.01847567,14.5714286 L2.01612342,14.6133411 C1.00668815,15.3974094 0.357142857,16.6228489 0.357142857,18 C0.357142857,19.3030288 0.938648956,20.4702376 1.85630398,21.2562657 Z" id="Rectangle-1-Copy-4" fill="#FFFFFF"></path>
-                            <text id="AGAINST" font-family="ProximaNova-Bold, Proxima Nova" font-size="18" font-weight="bold" line-spacing="65" fill="#999999">
+                            <text id="AGAINST" font-family="ProximaNova-Bold, ProximaNova" font-size="18" font-weight="bold" line-spacing="65" fill="#999999">
                                 <tspan x="36.543" y="24">AGAINST</tspan>
                             </text>
                             <g id="Group-6" transform="translate(22.669437, 18.610034) rotate(-7.000000) translate(-22.669437, -18.610034) translate(18.169437, 14.110034)" stroke="#999999" stroke-width="3" stroke-linecap="round">
