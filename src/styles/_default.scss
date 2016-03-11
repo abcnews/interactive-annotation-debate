@@ -12,6 +12,11 @@
 	}
 }
 
+.topic .Narrative-headerTitle svg {
+	margin-left: auto;
+	display: inline;
+}
+
 #panelproposition {
 	> h2 {
 		font-weight: bold;
@@ -180,4 +185,14 @@
 
 .ContextCards-context {
 	display: none;
+}
+
+.ContextCard-content {
+	blockquote {
+		margin: 0;
+		padding-left: 10px;
+		br {
+			display: none;
+		}
+	}
 }

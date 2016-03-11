@@ -5,12 +5,13 @@
  * @author Simon Elvery <elvery.simon@abc.net.au>
  */
 
-var doc, title, svgs, ns, n, parseTeaser, narrative, teasers, propositionNode, $nav, $stickyPosition, pageType;
+var doc, contextify, title, svgs, ns, n, parseTeaser, narrative, teasers, propositionNode, $nav, $stickyPosition, pageType;
 
 doc = document;
 n = require('narrative-core');
 parseTeaser = require('./parse-teaser');
 ns = require('util-news-selectors');
+contextify = require('interactive-context-cards');
 
 svgs = {
 	for: require('../templates/for.hbs'),
@@ -18,7 +19,8 @@ svgs = {
 	forTitle: require('../templates/for-title.hbs'),
 	againstTitle: require('../templates/against-title.hbs'),
 	forSmall: require('../templates/for-small.hbs'),
-	againstSmall: require('../templates/against-small.hbs')
+	againstSmall: require('../templates/against-small.hbs'),
+	title: require('../templates/write-to-reply.hbs')
 };
 
 // Initialise narrative
@@ -31,7 +33,7 @@ $nav = $('.Narrative-nav');
 
 title = doc.querySelector('.Narrative-headerTitle');
 title.innerHTML = title.textContent.split(':').map(function(chunk, i){
-		if (i === 0) {
+	if (i === 0) {
 		pageType = chunk.trim().toLowerCase();
 		if (pageType === 'for' || pageType === 'against') {
 			$stickyPosition = $('<div class="stickyPosition">'+svgs[pageType+'Title']()+'</div>').appendTo('body');
@@ -40,6 +42,7 @@ title.innerHTML = title.textContent.split(':').map(function(chunk, i){
 		} else {
 			pageType = 'topic';
 			$('.Narrative-page').addClass('topic');
+			return svgs.title();
 		}
 	}
 	return '<span>'+chunk.trim()+'</span>';
@@ -76,10 +79,12 @@ propositionNode.innerHTML = propositionNode.innerHTML + teasers.reduce(function(
 	return html += require('../templates/container.hbs')(teaser);
 },'<div>') + '</div>';
 
-// What kind of page is this?
-
+// Annotations
 
 // Initialise context cards
-require('interactive-context-cards')({
-	cardTemplate: require('../templates/card.hbs')
+contextify({
+	cardTemplate: require('../templates/card.hbs'),
+	data: {
+		author: $('[data-beacon="interactive-context-cards"]').closest(ns('embed:wysiwyg')).prev('h2,h3,h4').text().replace('Annotations by ','')
+	}
 });

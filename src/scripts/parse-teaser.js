@@ -6,6 +6,21 @@ doc = document;
 module.exports = function(teaser) {
 	var div, link, side, inner;
 
+	// TODO: This should be in dewysiwyg
+	var $ctx = $('span[id^="CTX-"]');
+	$ctx.find('script').filter(function(){
+		var $this = $(this),
+			txt = $this.text(),
+			src = $this.attr('src');
+
+		return (src && src.match(/joo\.js/)) ||
+			   (src && src.match(/coremedia/)) ||
+			   txt.match(/coremedia/) ||
+			   txt.match(/joo\.classLoader/);
+	}).remove();
+	$ctx.children().unwrap();
+	$ctx.remove();
+
 	// A temporary container for composition
 	div = doc.createElement('div');
 

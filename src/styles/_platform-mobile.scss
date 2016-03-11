@@ -22,6 +22,10 @@
 	margin: 10px auto;
 }
 
+.Narrative-panel {
+	margin-top: 0;
+}
+
 .topic #panelproposition {
 	> h2 {
 		font-size: 27px;
@@ -68,7 +72,7 @@
 	}
 
 	.Narrative-header {
-		margin-bottom: 20px;
+		margin-bottom: 0px;
 	}
 
 	#panelproposition {
@@ -86,7 +90,7 @@
 
 			a {
 				height: 36px;
-				
+
 				&.for {
 					background: #008255;
 				}
@@ -109,6 +113,60 @@
 			line-height: 20px;
 			letter-spacing: 0px;
 			text-align: center;
+		}
+	}
+
+	.topic #panelproposition {
+		> div {
+			flex-direction: column;
+			> div {
+				width: auto;
+				display: flex;
+				flex-direction: column;
+				margin: 0;
+
+				svg {
+					border-radius: 5px;
+				}
+
+				>h2, >p {
+					margin-left: 5px;
+					margin-right: 5px;
+				}
+
+				&.against {
+					order: 2;
+					text-align: left;
+					margin-top: 30px;
+					padding-top: 10px;
+					border-top: dashed 2px #ccc;
+					svg {
+						background: rgb(196, 69, 49);
+					}
+				}
+
+				&.for {
+					svg {
+						background: rgb(0, 130, 85);
+					}
+				}
+
+				a:first-child {
+					order: 3;
+				}
+
+				h2 {
+					font-size: 23px;
+
+				}
+
+				>p {
+					margin-top: 0;
+				}
+
+
+
+			}
 		}
 	}
 }
