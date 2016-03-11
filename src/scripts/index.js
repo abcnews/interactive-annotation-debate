@@ -25,8 +25,8 @@ svgs = {
 
 // Initialise narrative
 n.nav({
-	shareText: 'Double Edge Words',
-	shareHashtags: ['doubleedgewords']
+	shareText: 'Write to Reply',
+	shareHashtags: ['write2reply']
 });
 narrative = n();
 $nav = $('.Narrative-nav');
@@ -47,6 +47,10 @@ title.innerHTML = title.textContent.split(':').map(function(chunk, i){
 	}
 	return '<span>'+chunk.trim()+'</span>';
 }).join(' ');
+
+if (pageType !== 'topic') {
+	$(svgs.title()).insertAfter('.Narrative-navLogo');
+}
 
 $(window).on('scroll', function(){
 	var navOffsetTop = $nav.position().top;
