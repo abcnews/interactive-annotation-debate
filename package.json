@@ -1,6 +1,6 @@
 {
   "name": "interactive-annotation-debate",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Annotated debates",
   "private": true,
   "repository": "ssh://git@stash.abc-dev.net.au:7999/news/interactive-annotation-debate.git",
