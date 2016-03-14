@@ -25,7 +25,6 @@ svgs = {
 
 // Initialise narrative
 n.nav({
-	shareText: 'Write to Reply',
 	shareHashtags: ['write2reply']
 });
 narrative = n();
@@ -86,9 +85,12 @@ propositionNode.innerHTML = propositionNode.innerHTML + teasers.reduce(function(
 // Annotations
 
 // Initialise context cards
-contextify({
-	cardTemplate: require('../templates/card.hbs'),
-	data: {
-		author: $('[data-beacon="interactive-context-cards"]').closest(ns('embed:wysiwyg')).prev('h2,h3,h4').text().replace('Annotations by ','')
-	}
-});
+// In a timeout to give narrative a chance.
+setTimeout(function(){
+	contextify({
+		cardTemplate: require('../templates/card.hbs'),
+		data: {
+			author: $('[data-beacon="interactive-context-cards"]').closest(ns('embed:wysiwyg')).prev('h2,h3,h4').text().replace('Annotations by ','')
+		}
+	});
+},10);
